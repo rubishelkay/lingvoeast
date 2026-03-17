@@ -1,0 +1,54 @@
+.learning-item__text{
+  display:block;
+}
+
+@media (max-width:768px){
+  .learning-item{
+    border-bottom:none;
+    padding:0;
+  }
+
+  .learning-item:after{
+    display:none !important;
+    content:none !important;
+  }
+
+  .learning-item__image{
+    display:block;
+    margin-right:24px;
+    flex:0 0 105px;
+    height:105px;
+  }
+
+  .learning-item{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:0;
+  }
+
+  .learning-item__title{
+    padding-right:0;
+    font-size:18px;
+    line-height:22px;
+    margin-bottom:10px;
+  }
+
+  .learning-item__text{
+    display:block;
+    margin-top:0;
+    font-size:13px;
+    line-height:17px;
+    letter-spacing:.5px;
+  }
+}
+
+@media (max-width:425px){
+  .learning-item__image{
+    flex:0 0 85px;
+    height:85px;
+    margin-right:18px;
+  }
+}
+

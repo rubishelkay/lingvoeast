@@ -1,0 +1,30 @@
+.training-features{
+  flex-flow:row wrap;
+  justify-content:center;
+}
+
+.training-features__item{
+  flex:0 0 45%;
+  max-width:45%;
+  align-items:center;
+  text-align:center;
+}
+
+@media (max-width:768px){
+  .training-features__item{
+    flex:0 0 50%;
+    max-width:50%;
+  }
+}
+
+@media (max-width:425px){
+  .training-features__item{
+    flex:0 0 50%;
+    max-width:50%;
+  }
+  .training-features__icon{
+    width:90px;
+    height:90px;
+  }
+}
+

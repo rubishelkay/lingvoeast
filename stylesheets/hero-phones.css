@@ -1,0 +1,21 @@
+.hero-phones{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.hero-phones a{
+  display:block;
+  color:#000;
+}
+
+.hero-phones a + a{
+  margin-top:8px;
+}
+
+@media (max-width:768px){
+  .hero-phones{
+    align-items:flex-start;
+  }
+}
+
